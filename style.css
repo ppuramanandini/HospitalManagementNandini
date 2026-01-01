@@ -225,11 +225,20 @@ ul {
     align-items: center;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
 .hero-content {
     max-width: 600px;
-    /* Reduced width to make room for heart */
     z-index: 10;
     position: relative;
+    flex: 1;
 }
 
 .hero h1 {
@@ -242,6 +251,7 @@ ul {
     background: linear-gradient(45deg, #D81B60, #C2185B);
     /* Darker Pink/Red for contrast */
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -255,20 +265,18 @@ ul {
 
 /* Animated Heart Container */
 .hero-visual {
-    position: absolute;
-    right: 5%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    /* Removed absolute positioning */
 }
 
 .heart-svg {
-    width: 400px;
+    width: 100%;
     height: auto;
     filter: drop-shadow(0 20px 30px rgba(233, 30, 99, 0.4));
     animation: float 6s ease-in-out infinite;
@@ -629,6 +637,29 @@ footer {
 
     .hero h1 {
         font-size: 2.5rem;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .hero-btns {
+        justify-content: center;
+        display: flex;
+    }
+
+    .hero-visual {
+        width: 100%;
+        max-width: 300px;
+        /* Smaller heart on mobile */
+        height: auto;
+        aspect-ratio: 1/1;
     }
 
     .stats-grid {
