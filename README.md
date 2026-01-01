@@ -13,3 +13,6 @@ The project demonstrates a robust setup with impressive demo data: over 5,000 su
 HospitalMan leverages a modern technology stack, combining Python and Flask for backend functionality, HTML/CSS/JavaScript for an interactive frontend, and Scikit-learn, Pandas, and NumPy for machine learning analytics. An optional SQLite database can store patient records securely, while Git and GitHub ensure version control and collaborative management.
 
 This system provides a seamless experience for both patients and healthcare providers, allowing early risk detection, efficient appointment management, and quick access to critical services, all in a single, user-friendly platform.
+
+💻 **Live Demo:** [HospitalMan Live Demo](https://ppuramanandini.github.io/HospitalManagementNandini/)
+
