@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardioCare | Advanced Heart Hospital</title>
+    <meta name="description" content="Leading heart care hospital providing world-class cardiology services.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <span class="heart-icon">❤️</span> Cardio<span class="highlight">Care</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#risk-calculator">Risk Check</a></li>
+                <li><a href="#contact" class="btn-primary-small">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#risk-calculator">Risk Check</a>
+        <a href="#contact">Book Now</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <!-- Floating Particles -->
+        <div class="particle p1"></div>
+        <div class="particle p2"></div>
+        <div class="particle p3"></div>
+
+        <div class="container hero-content">
+            <h1 class="fade-in">Every Beat <span class="text-gradient">Matters</span><br>We Care For Your Heart</h1>
+            <p class="fade-in delay-1">World-class cardiology services in a soothing, patient-first environment. Your
+                heart health is our mission.</p>
+            <div class="hero-btns fade-in delay-2">
+                <a href="#appointment" class="btn-primary">Book Checkup</a>
+                <a href="#services" class="btn-secondary">Our Services</a>
+            </div>
+        </div>
+
+        <div class="hero-visual fade-in delay-2">
+            <!-- SVG Heart with Gradient -->
+            <svg class="heart-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="heart-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#FF80AB;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#E91E63;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <path class="main-heart"
+                    d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+            </svg>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3>5k+</h3>
+                <p>Successful Surgeries</p>
+            </div>
+            <div class="stat-item">
+                <h3>150+</h3>
+                <p>Expert Doctors</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Emergency Car</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2 class="section-title">Why Choose CardioCare?</h2>
+                <p>We are dedicated to providing the highest quality cardiovascular care. Our team of renowned
+                    cardiologists and surgeons use state-of-the-art technology to diagnose and treat heart conditions.
+                </p>
+                <ul class="feature-list">
+                    <li>✓ Advanced Cardiac Imaging</li>
+                    <li>✓ Minimally Invasive Surgery</li>
+                    <li>✓ Comprehensive Rehabilitation</li>
+                </ul>
+            </div>
+            <div class="about-image-card">
+                <div class="card-glass">
+                    <h3>Top Rated</h3>
+                    <p>#1 Heart Hospital in the Region</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🩺</div>
+                    <h3>Heart Checkup</h3>
+                    <p>Comprehensive screening packages to detect risks early.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">💓</div>
+                    <h3>Angioplasty</h3>
+                    <p>Advanced procedures to open blocked arteries.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🔬</div>
+                    <h3>Diagnostics</h3>
+                    <p>ECG, Echo, TMT, and advanced imaging services.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🚑</div>
+                    <h3>Emergency</h3>
+                    <p>24/7 rapid response for cardiac emergencies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risk Calculator Section -->
+    <section id="risk-calculator" class="section">
+        <div class="container">
+            <div class="calculator-box">
+                <h2 class="section-title text-center">Heart Health Risk Calculator</h2>
+                <p class="text-center">Get a quick estimate of your heart health status.</p>
+
+                <form id="risk-form" class="risk-form">
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" required placeholder="Years">
+                    </div>
+                    <div class="form-group">
+                        <label for="bmi">BMI (Body Mass Index)</label>
+                        <input type="number" id="bmi" step="0.1" required placeholder="e.g. 24.5">
+                    </div>
+                    <div class="form-group">
+                        <label for="smoker">Do you smoke?</label>
+                        <select id="smoker">
+                            <option value="no">No</option>
+                            <option value="yes">Yes</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Calculate Risk</button>
+                </form>
+
+                <div id="result-display" class="result-display hidden">
+                    <h3>Your Risk Level: <span id="risk-level"></span></h3>
+                    <p id="risk-message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="section appointment-section">
+        <div class="container appointment-wrapper">
+            <div class="appointment-text">
+                <h2>Book Your Appointment</h2>
+                <p>Don't wait. Prioritize your heart health today. Schedule a consultation with our experts.</p>
+            </div>
+            <form class="appointment-form glass-form" id="booking-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <div class="form-row">
+                    <input type="date" required>
+                    <select>
+                        <option>General Checkup</option>
+                        <option>Cardiology Consultation</option>
+                        <option>Surgery Inquiry</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary full-width">Confirm Booking</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>CardioCare</h3>
+                <p>Saving lives, one beat at a time.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>123 Heartbeat Ave,</p>
+                <p>Medical City, NY</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CardioCare Hospital. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
